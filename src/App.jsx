@@ -9,7 +9,7 @@ function App() {
   const route = createBrowserRouter(
     createRoutesFromElements(
       <Route path='/' element={<MainLayout />}>
-        <Route path='/home' index element={<Home />} />
+        <Route index element={<Home />} />
         <Route path='/vision' element={<Vision />} />
         <Route path='/endpoints' element={<Endpoints />} />
         <Route path='/mockup' element={<Mockup />} />

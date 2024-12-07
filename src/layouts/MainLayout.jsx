@@ -107,11 +107,11 @@ function MainLayout() {
             <GlobalStyle />
             <Container>
                 <Header>
-                    <Link to={'/home'}><img src='gamevault_logo.png' alt='Game Vault Logo' /></Link>
+                    <Link to={'/'}><img src='gamevault_logo.png' alt='Game Vault Logo' /></Link>
                 </Header>
                 <NavigationBarArea>
                     <NavBar>
-                        <StyledNavLink to={'/home'}><NavItem><NavIcon><IoHome /></NavIcon>Home</NavItem></StyledNavLink>
+                        <StyledNavLink to={'/'}><NavItem><NavIcon><IoHome /></NavIcon>Home</NavItem></StyledNavLink>
                         <StyledNavLink to={'/vision'}><NavItem><NavIcon><FaEye /></NavIcon>Vision</NavItem></StyledNavLink>
                         <StyledNavLink to={'/endpoints'}><NavItem><NavIcon><FaRoute /></NavIcon>Endpoints</NavItem></StyledNavLink>
                         <StyledNavLink to={'/mockup'}><NavItem><NavIcon><CgWebsite /></NavIcon>Mock up</NavItem></StyledNavLink>
